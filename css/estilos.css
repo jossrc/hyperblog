@@ -1,15 +1,30 @@
 body {
     color: #333;
-    text-align: left;
+    text-align: center;
     font-size: 16px;
     font-family: Courier, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
 
+.cabecera {
+    background: #33A;
+    color: white;
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em;
+}
+
+.cabecera .tagline {
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8em;
+}
+
 .container {
     width: 70%;
-    padding: 1em;
+    padding: 0;
     text-align: left;
     border: 1px solid #ddd;
     margin: 0 auto;
@@ -17,4 +32,9 @@ body {
 
 .container h1 {
     font-size: 20px;
+}
+
+.post {
+    width: 95%;
+    margin: auto;
 }
